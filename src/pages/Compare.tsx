@@ -320,19 +320,6 @@ export function Compare() {
             re-optimizing with real provider data.
           </p>
           <div className="flex gap-4">
-            <button
-              onClick={() => navigate(`/trip/${tripId}`)}
-              className="flex-1 px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 font-medium transition-colors"
-            >
-              Cancel
-            </button>
-            <button
-              onClick={() => navigate(`/trip/${tripId}`)}
-              className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 font-semibold transition-colors"
-            >
-              Apply & Re-optimize
-              <ArrowRight className="w-5 h-5" />
-            </button>
           </div>
         </div>
       </main>

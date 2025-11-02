@@ -590,13 +590,6 @@ export function TripDetail() {
                 Weather & Tips
               </button>
 
-              <button
-                onClick={handleReplanImpacted}
-                disabled={optimizing}
-                className="w-full px-4 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 font-medium transition-colors disabled:opacity-50"
-              >
-                Re-plan Impacted
-              </button>
             </div>
           </div>
         </div>
